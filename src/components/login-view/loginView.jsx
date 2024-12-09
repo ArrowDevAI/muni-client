@@ -11,8 +11,8 @@ const LoginView = ({ onLoggedIn }) => {
         event.preventDefault();
 
         const data = {
-            Username: username,
-            Password: password
+            username: username,
+            password: password
         };
 
         fetch("https://munidb-fb01ab798334.herokuapp.com/login", {
